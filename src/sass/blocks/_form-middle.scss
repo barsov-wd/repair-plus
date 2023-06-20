@@ -1,0 +1,114 @@
+.form-middle {
+    position: relative; 
+    padding-top: 52px;
+    padding-bottom: 54px;
+    background: #1D2025;
+    &__image {
+        position: absolute;
+        top: -84px;
+        left: 0;
+    }
+    &__inner {
+        margin-left: auto;
+        width: 1080px;
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-start;
+    }
+    &__title {
+        color: #fff;
+        margin-bottom: 13px;
+    }
+    &__subtitle {
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+        color: #fff;
+        margin-bottom: 45px;
+    }
+    &__form-inner {
+        display: flex;
+        column-gap: 40px;
+    }
+    &__label {
+        display: block;
+        font-family: 'Montserrart Medium', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #17FF75;
+        margin-bottom: 23px;
+    }
+    &__input-group {
+        width: 290px;
+    }
+    &__input {
+        width: 100%;
+        padding: 6px 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid #17FF75;
+        font-family: 'Montserrart Medium', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        &::placeholder {
+            color: #ffffff;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__left-inner {
+        display: flex;
+        align-items: center;
+        margin-bottom: 77px;
+    }
+    &__left-title {
+        font-size: 65px;
+        line-height: 79px;
+        background: linear-gradient(90deg, #16BF13 0%, #17FF75 68.91%, #16C014 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    &__left-descr {
+        margin-left: 20px;
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #fff;
+    }
+    &__left-button {
+        width: 385px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    &__text-small {
+        width: 322px;
+        text-align: left;
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    &__title-mobile,
+    &__subtitle-mobile {
+        display: none;
+    }
+    &__button-mobile {
+        display: none;
+    }
+    &__text-mobile {
+        display: none;
+    }
+    &__image-mobile {
+        display: none;
+    }
+}

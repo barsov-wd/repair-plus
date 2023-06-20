@@ -1,0 +1,47 @@
+.about-bottom {
+    position: relative;
+    z-index: 5;
+    padding-bottom: 16px;
+    background: #1D2025;
+    height: 386px;
+    &__container {
+        position: relative;
+    }
+    &__bg {
+        position: absolute;
+        left: 0;
+        bottom: 16px;
+    }
+    &__image {
+        position: absolute;
+        top: -117px;
+        left: 22%;
+        z-index: 6;
+    }
+    &__block {
+        padding: 59px 49px 60px 95px;
+        position: absolute;
+        right: 0;
+        top: -162px;
+        width: 747px;
+        height: 287px;
+        background: #1D2025;
+        box-shadow: 1px 25px 55px #000000;
+        border-radius: 20px;
+    }
+    &__descr {
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fff;
+    }
+    &__button {
+        display: block;
+        width: 385px;
+        height: 60px;
+        position: absolute;
+        right: 270px;
+        bottom: -255px;
+    }
+}

@@ -1,0 +1,66 @@
+.header {
+    padding-top: 37px;
+    background: #1D2025;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-size: 30px;
+        line-height: 37px;
+        color: #fff;
+    }
+    &__menu {
+        display: flex;
+        column-gap: 45px;
+    }
+    &__menu-link {
+        font-family: 'Montserrat Medium', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        transition: all .3s;
+        &:hover {
+            color: #16BF13;
+            text-decoration: underline;
+        }
+    }
+    &__contacts {
+        display: flex;
+        align-items: center;
+    }
+    &__contacts-item {
+        margin-right: 20px;
+    }
+    &__contacts-phone,
+    &__contacts-worktime {
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    &__contacts-phone {
+        font-family: 'Montserrat Medium', sans-serif;
+        font-weight: 500;
+    }
+    &__contacts-worktime {
+        text-align: right;
+    }
+    &__contacts-button {
+        width: 385px;
+        height: 60px;
+    }
+    &__contacts-button-mobile {
+        display: none;
+    }
+    &__link-menu {
+        display: none;
+        font-family: 'Montserrat Medium', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        text-decoration: underline;
+    }
+}
