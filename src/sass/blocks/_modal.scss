@@ -6,7 +6,7 @@
     top: 0;
     bottom: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     overflow: auto;
     background: rgba(45, 45, 45, 0.6);
@@ -107,7 +107,7 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #1D2025;
+        color: #16BF13;
         margin-bottom: 24px;
     }
 
@@ -120,15 +120,15 @@
         font-weight: 500;
         width: 100%;
         border: none;
-        background-color: transparent;
+        background-color: #fff;
         padding: 6px 0;
         font-size: 20px;
         line-height: 24px;
-        color: #16BF13;
+        color: #1D2025;
         border-bottom: 1px solid #1D2025;
 
         &::placeholder {
-            color: #16BF13;
+            color: #1D2025;
         }
 
         &:focus {

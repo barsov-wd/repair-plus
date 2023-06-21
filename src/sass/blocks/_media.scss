@@ -837,6 +837,11 @@
         line-height: 55px;
     }
     .repair-slider {
+        .container {
+            max-width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
         &__title {
             width: 600px;
         }
@@ -1359,7 +1364,8 @@
         padding: 80px 0;
         &__title {
             width: 540px;
-            margin-bottom: 35px;
+            text-align: center;
+            margin: 0 auto 35px;
         }
         &__items {
             width: 540px;
@@ -1462,6 +1468,9 @@
             font-size: 16px;
             line-height: 20px;
             margin-bottom: 10px;
+        }
+        &-main__input-group {
+            width: 335px;
         }
         &-main__input {
             padding: 10px 0;
@@ -1687,7 +1696,7 @@
             height: 50px;
             font-size: 16px;
             line-height: 20px;
-            padding: 15px 73px;
+            padding: 15px 0;
         }
         &__inner {
             margin-bottom: 10px;
@@ -1759,6 +1768,7 @@
         }
         &__title {
             width: 325px;
+            text-align: left;
         }
         &__items {
             width: 355px;
@@ -1819,7 +1829,7 @@
             left: 45px;
         }
         &__button {
-            padding: 13px 75px;
+            padding: 13px 0;
             width: 335px;
             height: 50px;
             font-size: 16px;

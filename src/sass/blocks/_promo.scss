@@ -81,7 +81,7 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #1D2025;
+        color: #16BF13;
         margin-bottom: 5px;
     }
     &__form-input-group {
@@ -94,13 +94,14 @@
         border: none;
         background-color: transparent;
         font-family: 'Montserrat Medium', sans-serif;
+        color: #1D2025;
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #16BF13;
+        
         border-bottom: 1px solid #1D2025;
         &::placeholder {
-            color: #16BF13;
+            color: #1D2025;
         }
         &:focus {
             outline: none;
